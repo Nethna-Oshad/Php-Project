@@ -1,0 +1,145 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh; /* Set minimum height to full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #007bff; /* Header background color */
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #007bff; /* Footer background color matches header */
+  padding: 20px 0;
+  color: #fff; /* Text color */
+  margin-top: auto; /* Push footer to the bottom */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links a {
+  color: #fff; /* Link color */
+  text-decoration: none;
+}
+
+/* Privacy Policy Content */
+.content {
+  margin-top: 50px;
+}
+
+.content h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin-bottom: 15px;
+}
+
+/* Frequently Asked Questions */
+.faq {
+  margin-top: 50px;
+}
+
+.question {
+  cursor: pointer;
+}
+
+.answer {
+  display: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  nav .container {
+    flex-direction: column;
+  }
+
+  .nav-links li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  footer .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links li {
+    display: block;
+    margin: 10px 0;
+  }
+}
