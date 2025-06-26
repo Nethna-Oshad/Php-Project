@@ -2,7 +2,7 @@
 Php based OOC project
 
 
-# 📚 School Management System - User Management Module
+# 📚 Bank Management System - User Management Module
 
 This is a part of a **School Management System** project developed for the **Object Oriented Concepts (OOC)** module. The focus of this section is the **User Management System**, built using **PHP**, **HTML**, and **CSS**.
 
@@ -27,12 +27,6 @@ This is a part of a **School Management System** project developed for the **Obj
 - **Tools**: XAMPP / WAMP, Git, GitHub
 
 ---
-
-## 📂 Project Structure
-
-
-
-
 
 
 ---
